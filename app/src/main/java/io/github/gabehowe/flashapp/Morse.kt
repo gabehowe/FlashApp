@@ -1,0 +1,45 @@
+package io.github.gabehowe.flashapp
+
+class Morse {
+    val morse = mutableMapOf<Char,String>()
+
+    init {
+        morse['a'] = ".,-"
+        morse['b'] = "-,.,.,."
+        morse['c'] = "-,.,-,."
+        morse['d'] = "-,.,."
+        morse['e'] = "."
+        morse['f'] = ".,.,-,."
+        morse['g'] = "-,-,."
+        morse['h'] = ".,.,.,."
+        morse['i'] = ".,."
+        morse['j'] = ".,-,-,-"
+        morse['k'] = "-,.,-,."
+        morse['l'] = ".,-,.,."
+        morse['m'] = "-,-"
+        morse['n'] = "-,."
+        morse['o'] = "-,-,-"
+        morse['p'] = ".,-,-,."
+        morse['q'] = "-,-,.,-"
+        morse['r'] = ".,-,."
+        morse['s'] = ".,.,."
+        morse['t'] = "-"
+        morse['u'] = ".,.,-"
+        morse['v'] = ".,.,.,-"
+        morse['w'] = ".,-,-"
+        morse['x'] = "-,.,.,-"
+        morse['y'] = "-,.,-,-"
+        morse['z'] = "-,-,.,."
+        morse['1'] = ".,-,-,-,-"
+        morse['2'] = ".,.,-,-,-"
+        morse['3'] = ".,.,.,-,-"
+        morse['4'] = ".,.,.,.,-"
+        morse['5'] = ".,.,.,.,."
+        morse['6'] = "-,.,.,.,."
+        morse['7'] = "-,-,.,.,."
+        morse['8'] = "-,-,-,.,."
+        morse['9'] = "-,-,-,-,."
+        morse['0'] = "-,-,-,-,-"
+        morse[' '] = ";"
+    }
+}
